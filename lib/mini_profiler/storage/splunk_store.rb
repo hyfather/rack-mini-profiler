@@ -10,7 +10,7 @@ module Rack
       end
 
       def save(page_struct)
-        forward_to_splunk(page_struct.to_json, @args)
+        forward_to_splunk(JSON.parse(page_struct.to_json), @args)
       end
 
       def load(id)
