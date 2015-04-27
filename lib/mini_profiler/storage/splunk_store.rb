@@ -48,8 +48,7 @@ module Rack
           request.initialize_http_header({
                                            'Authorization' => options[:splunk_auth]
                                          })
-
-          [*payload].each do |j|
+          [payload].each do |j|
             data = {
               "event" => j,
               "host" => options[:host],
