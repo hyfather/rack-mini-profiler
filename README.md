@@ -1,3 +1,11 @@
+#### This was forked for a hackathon project that forwards profiling data to Splunk Cloud
+
+* The Splunk storage backend is here:
+https://github.com/hyfather/rack-mini-profiler/blob/master/lib/mini_profiler/storage/splunk_store.rb
+
+______
+
+
 # rack-mini-profiler
 
 [![Code Climate](https://codeclimate.com/github/MiniProfiler/rack-mini-profiler/badges/gpa.svg)](https://codeclimate.com/github/MiniProfiler/rack-mini-profiler) [![Build Status](https://travis-ci.org/MiniProfiler/rack-mini-profiler.svg)](https://travis-ci.org/MiniProfiler/rack-mini-profiler)
